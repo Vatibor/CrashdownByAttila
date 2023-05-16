@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.4.min.js"></script>
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>CrashDown</title>
+</head>
+
+<body>
+  <div class="container">
+    <div id="board"></div>
+    <div id="bottomRow"></div>
+
+  </div>
+  <div class="info">
+    <h1 class="title">Crashdown game by Attila</h1>
+    <div class="level">Level: <span id="level"></span></div>
+    <div class="timerDisplay"><span>Timer:</span><span id="timerDisplay">00:00</span></div>
+    <div class="topScore">Top Score: <span id="topScore"></span></div>
+    <div class="score">Score: <span id="score"></span></div>
+    <div id="start">Click to start!</div>
+  </div>
+
+  <!-- Background music and click's sound    -->
+  <audio id="backgroundMusic">
+    <source src="assets/orchestra-background.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="clickVoice">
+    <source src="assets/fire-magic.mp3" type="audio/mpeg">
+  </audio>
+  
+</body>
+
+</html>

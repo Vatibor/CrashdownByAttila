@@ -1,0 +1,91 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  background-color: darkolivegreen;
+}
+
+.container {
+  height: 700px;
+  width: 500px;
+  max-width: 700px;
+  background-color: darkolivegreen;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#board {
+  position: relative;
+  border: 4px solid darkgrey;
+  width: 452px;
+  height: 602px;
+  margin: 20px auto;
+  background-color: black;
+
+}
+
+#bottomRow {
+  margin: auto;
+  position: relative;
+  display: block;
+  border: 4px solid darkgrey;
+  width: 452px;
+  height: 32px;
+  background-color: black;
+}
+
+.info {
+  min-width: 300px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.info .timerDisplay {
+  font-size: 25px;
+  height: 50px;
+  top: 10%;
+}
+
+.info #start, .info #restart, .title {
+  margin-top:20px;
+  font-size: 40px;
+  color: white;
+}
+
+.info #score {
+  padding-left: 10px;
+}
+
+.topScore, .level, .info #score, .info .score  {
+  color: white;
+  height: 50px;
+  font-size: 25px;
+}
+
+.topScore span, .timerDisplay span  {
+  color: #fff;
+  padding-left: 10px;
+}
+
+.square {
+  position: absolute;
+  border: solid black 1px;
+}
+
